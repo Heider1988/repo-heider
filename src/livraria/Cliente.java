@@ -15,4 +15,11 @@ public class Cliente {
 		return 0;
 	}
 
+	public boolean maiorIdade(int idade) {
+		if (idade > 18) {
+			return true;
+		}
+		return false;
+	}
+
 }
